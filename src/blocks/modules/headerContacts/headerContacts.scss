@@ -1,0 +1,54 @@
+/* Header contacts */
+.header .header-contacts {
+  background-color: var(--bg-color_1);
+}
+
+.header .header-contacts .tel_contacts {
+  color: var(--font-color2);
+  font-size: 18px;
+  font-family: fontRegular;
+  padding: 12px 0 12px 46px;
+}
+.header .header-contacts .tel_contacts a {
+  color: var(--font-color2);
+  text-decoration: none;
+  margin-left: 5px;
+}
+.header .header-contacts .toll_free {
+  background-image: url("../img/toll_free.png");
+  background-repeat: no-repeat;
+  background-position: 0 10px;
+}
+.header .header-contacts .call_now {
+  background-image: url("../img/call_now.png");
+  background-repeat: no-repeat;
+  background-position: 0 10px;
+}
+
+.header .header-contacts .social_icons {
+  font-size: 18px;
+  font-family: fontRegular;
+  color: var(--font-color2);
+  display: flex;
+  justify-content: end;
+  padding: 12px 0 12px 46px;
+}
+
+.header .header-contacts .social_icons .pinterest .fa-cog {
+  margin-left: 10px;
+  color: var(--color-pinterest);
+}
+
+.header .header-contacts .social_icons .twitter .fa-cog {
+  margin-left: 10px;
+  color: var(--color-twitter);
+}
+
+.header .header-contacts .social_icons .facebook .fa-cog {
+  margin-left: 10px;
+  color: var(--color-facebook);
+}
+
+.header .header-contacts {
+  margin-bottom: 18px;
+}
